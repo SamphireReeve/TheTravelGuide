@@ -1,0 +1,55 @@
+h1{
+    font-size: 50px;
+    color: grey;
+    padding-bottom: 5%;
+}
+
+#Intro{
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img{
+    width:300px;
+    height:230px;
+}
+
+#gallery:hover > img {
+    opacity:1;
+}
+#gallery:hover > img:not(:hover) {
+    opacity: 0.4;
+}
+
+#gallery{
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h2{
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: grey;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.expanding {
+  height: 100% !important;
+  
+}
+
+footer{
+    color: white;
+    background-color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

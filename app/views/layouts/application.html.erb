@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  
+
+  <ul class="nav">
+    <li class="active"><a href="/static_pages/home">HOME</a></li>
+    <li class="active"><a href="/static_pages/about">ABOUT</a></li>
+    <li class="active"><a href="/static_pages/help">HELP</a></li>
+  </ul>
+
+  <%= yield %>
+  
+</body>
+
+<footer>
+  <h3>Contact</h3>
+  <p>Email: example@example.com</p>
+  <p>Address: Example Address, AB3 4CD</p>
+</footer>
+
+</html>

@@ -1,0 +1,35 @@
+/* 
+*= require_tree .
+*= require_self 
+*/
+
+body{
+    height: 100%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: orange;
+}
+

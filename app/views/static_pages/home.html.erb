@@ -1,0 +1,160 @@
+
+
+<% provide(:title, "The Travel Guide") %>
+<% provide(:italy, "Italy") %>
+
+<title><%= yield(:title) %> | Ruby Application</title>
+
+<h1><%= yield(:title) %></h1>
+
+<div id ="Intro">
+
+  <h2>Intro</h2>
+  
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+  Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+  Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+  Donec placerat non quam ut porta.</p>
+  <p></p>Sed dictum enim sit amet pulvinar fermentum. Integer mollis facilisis lacinia. Nullam vulputate mollis iaculis. Aenean mattis sodales ante eu laoreet. 
+  Integer placerat turpis eu mollis aliquet. Donec sit amet ornare mi. Donec vitae erat vel enim tristique iaculis. Cras hendrerit eleifend ipsum condimentum bibendum. 
+  Etiam ipsum nisl, vehicula sed rutrum a, dapibus ut tellus. Sed commodo, ex sed lobortis gravida, lacus turpis lacinia justo, nec vehicula sem magna nec ante. 
+  Nunc sagittis laoreet odio, vitae sodales elit blandit et. Donec faucibus in ligula in faucibus. Maecenas lacus orci, sagittis gravida lacinia ac, imperdiet ut dolor. 
+  Praesent laoreet nibh vel justo aliquet congue in nec nulla. Nulla tristique feugiat sem sit amet fermentum. Integer sagittis, justo a ultrices tincidunt, diam elit vulputate risus, 
+  egestas dapibus dolor lacus eu ligula.</p>
+</div>
+
+<div id ="gallery">
+  <h2>Places To Go</h2>
+  <img src="http://www.qscourses.com/blog/wp-content/uploads/2015/07/shutterstock_193868048.jpg" alt="" onclick="myFunction('.greece')">
+  
+  <img src="http://static4.uk.businessinsider.com/image/57c6c1e7f6fcaec6158b4765-1190-625/the-25-cheapest-holiday-destinations-in-europe.jpg" alt="" onclick="myFunction('.prague')">
+  
+  <img src="https://resources.ownersdirect.co.uk/info/files/live/sites/odhr/files/holidays/Italy-popular-holiday-destinations/rome--ts-2015-06-10T16%3A22%3A15_553%2B01%3A00.jpg" alt="" onclick="myFunction('.italy')">
+  
+  <img src="http://cdni.condenast.co.uk/426x284/o_r/Panoramic-view-of-Grand-Canal-from-Apartment-Wagner-at-Palazzo-Polignac-venice-italy-conde-nast-traveller-23may16-stefano-scata_426x284.jpg" alt="" onclick="myFunction('.venice')">
+  
+  <img src="http://static1.uk.businessinsider.com/image/58a6fe533080e626008b47b7/ranked-the-21-most-expensive-holiday-destinations-on-the-planet.jpg" alt="" onclick="myFunction('.amsterdam')">
+  
+  <img src="http://static3.uk.businessinsider.com/image/57c6c21ef6fcae15008b486f-480/antalya.jpg" alt="" onclick="myFunction('.antalya')">
+  
+  <img src="http://www.onthegotours.com/blog/wp-content/uploads/2012/01/iStock_000002195133Large.jpg" alt="" onclick="myFunction('.moscow')">
+  
+  <img src="https://www.worldtravelguide.net/wp-content/uploads/2017/04/Think-Sweden-Stockholm-497344880-adisa-copy.jpg" alt="" onclick="myFunction('.stockholm')">
+  
+  <div class = "expand greece">
+    <h2>Greece</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+  
+  <div class = "expand prague">
+    <h2>Prague</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+  
+  <div class = "expand italy">
+    <h2><%= yield(:italy) %></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+  
+  <div class = "expand venice">
+    <h2>Venice</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+  
+  <div class = "expand amsterdam">
+    <h2>Amsterdam</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+  
+  <div class = "expand antalya">
+    <h2>Antalya</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+  
+  <div class = "expand moscow">
+    <h2>Moscow</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+  
+  <div class = "expand stockholm">
+    <h2>Stockholm</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra pharetra enim et venenatis. Aenean malesuada augue a nisi consectetur tincidunt. 
+    Cras non nisl aliquet, mollis mauris sit amet, scelerisque est. Sed vitae nunc ex. Cras maximus mattis diam quis fermentum. Nulla ut diam tortor. 
+    Morbi eu metus in libero maximus tristique. Maecenas convallis, magna sodales ultrices interdum, libero dui interdum orci, vitae blandit magna tortor ut diam. 
+    Donec placerat non quam ut porta.</p>
+    <p>Cras vitae finibus eros. Praesent sed ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo 
+    felis, finibus sit amet orci eget, pulvinar interdum felis. Vestibulum pulvinar quam vel nisi mollis varius. Fusce et semper diam, quis semper ligula. Curabitur ac 
+    neque vehicula, laoreet est vel, molestie lacus. Suspendisse eu leo aliquet, scelerisque orci vel, condimentum orci. Phasellus dapibus, diam a volutpat tempus, leo 
+    dolor vehicula est, sed gravida dui orci id sapien. Donec eu dolor quis eros porttitor accumsan. Vestibulum id sapien dignissim, convallis felis ut, posuere sem. 
+    Morbi pellentesque mattis nisi vel elementum. Nullam eget lacinia lacus. Vestibulum posuere ex quis augue vestibulum, mollis dignissim ex scelerisque. Praesent lobortis 
+    tortor eros, facilisis fringilla leo euismod ut. Duis nec convallis lectus, nec pretium arcu.</p>
+  </div>
+    
+  
+</div>
+
+
+
