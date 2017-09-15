@@ -33,3 +33,12 @@ li a:hover {
     color: orange;
 }
 
+
+footer{
+    width: 100%;
+    color: white;
+    background-color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+

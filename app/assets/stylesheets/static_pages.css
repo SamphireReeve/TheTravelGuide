@@ -36,7 +36,6 @@ h2{
 .expand {
   height: 0px;
   overflow: hidden;
-  transition: height 0.5s;
   color: grey;
   padding-left: 5%;
   padding-right: 5%;
@@ -44,12 +43,5 @@ h2{
 
 .expanding {
   height: 100% !important;
-  
 }
 
-footer{
-    color: white;
-    background-color: grey;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
